@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ===================== SEO ===================== -->
+<title>Ruan Stuart Barbearia | Barbearia em Vilar dos Teles</title>
+<meta name="description" content="Conheça a Ruan Stuart Barbearia em Vilar dos Teles, São João de Meriti. Ambiente agradável, profissionais capacitados e uma experiência diferenciada.">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ruan Stuart Barbearia | Barbearia em Vilar dos Teles">
+<meta property="og:description" content="Ambiente agradável, profissionais capacitados e uma experiência diferenciada. Agende seu horário na Ruan Stuart Barbearia.">
+<!-- TROCAR: imagem de compartilhamento (1200x630px) -->
+<meta property="og:image" content="images/og-cover.jpg">
+<meta property="og:locale" content="pt_BR">
+
+<link rel="icon" href="images/favicon.png">
+<link rel="apple-touch-icon" href="images/favicon.png">
+
+<!-- Fontes: Playfair Display (títulos) + Inter (texto) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+<!-- ===================== Schema.org (LocalBusiness / BarberShop) ===================== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BarberShop",
+  "name": "Ruan Stuart Barbearia",
+  "image": "images/hero-barbearia.jpg",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "R. Aldenor Ribeiro de Matos",
+    "addressLocality": "Vilar dos Teles, São João de Meriti",
+    "addressRegion": "RJ",
+    "postalCode": "25576-282",
+    "addressCountry": "BR"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "55"
+  },
+  "priceRange": "$$",
+  "telephone": "TROCAR-TELEFONE-AQUI",
+  "url": "TROCAR-URL-DO-SITE-AQUI",
+  "sameAs": ["https://www.instagram.com/ruanstuartbarbearia/"],
+  "foundingDate": "2015",
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday"],
+    "opens": "10:30",
+    "closes": "21:00"
+  }
+}
+</script>
+</head>
+<body>
+
+<!-- ===================== HEADER ===================== -->
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="#topo" class="logo">
+      <img src="images/logo.png" alt="Ruan Stuart Barbearia" class="logo__img">
+    </a>
+
+    <nav class="nav" id="nav">
+      <ul class="nav__list">
+        <li><a href="#topo" class="nav__link">Início</a></li>
+        <li><a href="#servicos" class="nav__link">Serviços</a></li>
+        <li><a href="#sobre" class="nav__link">Sobre</a></li>
+        <li><a href="#galeria" class="nav__link">Galeria</a></li>
+        <li><a href="#avaliacoes" class="nav__link">Avaliações</a></li>
+        <li><a href="#localizacao" class="nav__link">Localização</a></li>
+      </ul>
+    </nav>
+
+    <!-- TROCAR: link de agendamento (WhatsApp, Booksy, etc.) -->
+    <a href="#" class="btn btn--gold header__cta" target="_blank" rel="noopener">Agendar horário</a>
+
+    <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- Menu mobile -->
+<div class="mobile-menu" id="mobileMenu">
+  <img src="images/logo.png" alt="Ruan Stuart Barbearia" class="mobile-menu__logo">
+  <ul class="mobile-menu__list">
+    <li><a href="#topo">Início</a></li>
+    <li><a href="#servicos">Serviços</a></li>
+    <li><a href="#sobre">Sobre</a></li>
+    <li><a href="#galeria">Galeria</a></li>
+    <li><a href="#avaliacoes">Avaliações</a></li>
+    <li><a href="#localizacao">Localização</a></li>
+  </ul>
+  <a href="#" class="btn btn--gold" target="_blank" rel="noopener">Agendar horário</a>
+</div>
+
+<main id="topo">
+
+<!-- ===================== HERO ===================== -->
+<section class="hero">
+  <!-- TROCAR: imagem de fundo do hero em images/hero-barbearia.jpg -->
+  <div class="hero__bg" style="background-image:url('images/hero-barbearia.jpg');"></div>
+  <div class="hero__overlay"></div>
+
+  <div class="container hero__inner">
+    <div class="hero__content fade-in-up">
+      <p class="eyebrow">Barbearia em Vilar dos Teles</p>
+      <h1 class="hero__title">Seu estilo começa aqui.</h1>
+      <p class="hero__subtitle">Um espaço feito para quem valoriza um bom corte, cuidado nos detalhes e uma experiência diferenciada.</p>
+
+      <div class="hero__actions">
+        <a href="#" class="btn btn--gold" target="_blank" rel="noopener">Agendar horário</a>
+        <a href="#sobre" class="btn btn--outline">Conhecer a barbearia</a>
+      </div>
+
+      <div class="hero__trust">
+        <span class="stars" aria-hidden="true">★★★★★</span>
+        <span>4,9 no Google • 55 avaliações</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero__scroll" aria-hidden="true"><span></span></div>
+</section>
+
+<!-- ===================== BARRA DE CONFIANÇA ===================== -->
+<section class="trustbar">
+  <div class="container trustbar__grid">
+    <div class="trustbar__item fade-in-up">
+      <span class="stars" aria-hidden="true">★★★★★</span>
+      <p>4,9 estrelas no Google</p>
+    </div>
+    <div class="trustbar__item fade-in-up">
+      <span class="trustbar__number">55+</span>
+      <p>Avaliações</p>
+    </div>
+    <div class="trustbar__item fade-in-up">
+      <span class="trustbar__number">Pro</span>
+      <p>Profissionais experientes e qualificados</p>
+    </div>
+    <div class="trustbar__item fade-in-up">
+      <span class="trustbar__number">849</span>
+      <p>Seguidores no Instagram</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== MAIS QUE UM CORTE ===================== -->
+<section class="about" id="sobre">
+  <div class="container about__grid">
+    <div class="about__text fade-in-up">
+      <p class="eyebrow">Sobre a barbearia</p>
+      <h2 class="section-title">Mais que um corte.<br>Uma experiência.</h2>
+      <p class="about__desc">A Ruan Stuart Barbearia combina atendimento profissional, ambiente agradável e uma experiência pensada para quem gosta de cuidar do visual sem abrir mão de conforto.</p>
+
+      <ul class="about__list">
+        <li>Profissionais capacitados</li>
+        <li>Ambiente agradável</li>
+        <li>Wi-Fi liberado</li>
+        <li>Bom preço</li>
+        <li>Atendimento profissional</li>
+      </ul>
+
+      <p class="about__since">Desde 2015 elevando a autoestima de Vilar dos Teles.</p>
+    </div>
+
+    <div class="about__media fade-in-up">
+      <!-- TROCAR: imagem do interior da barbearia -->
+      <img src="images/sobre-barbearia.jpg" alt="Interior da Ruan Stuart Barbearia" loading="lazy">
+      <div class="about__media-icon" aria-hidden="true">✂</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SERVIÇOS ===================== -->
+<section class="services" id="servicos">
+  <div class="container">
+    <p class="eyebrow center">O que oferecemos</p>
+    <h2 class="section-title center">Serviços</h2>
+    <p class="section-subtitle center">Preços e descrições abaixo são exemplos — substitua pelos valores reais.</p>
+
+    <div class="services__grid">
+      <!-- CARD 1 — TROCAR nome, descrição, preço e imagem -->
+      <article class="service-card fade-in-up">
+        <div class="service-card__img">
+          <img src="images/servico-corte.jpg" alt="Corte Masculino" loading="lazy">
+        </div>
+        <div class="service-card__body">
+          <h3>Corte Masculino</h3>
+          <p>Corte personalizado de acordo com o estilo do cliente.</p>
+          <span class="service-card__price">R$ --,--</span>
+        </div>
+      </article>
+
+      <!-- CARD 2 — TROCAR -->
+      <article class="service-card fade-in-up">
+        <div class="service-card__img">
+          <img src="images/servico-barba.jpg" alt="Barba" loading="lazy">
+        </div>
+        <div class="service-card__body">
+          <h3>Barba</h3>
+          <p>Modelagem e acabamento com navalha.</p>
+          <span class="service-card__price">R$ --,--</span>
+        </div>
+      </article>
+
+      <!-- CARD 3 — TROCAR -->
+      <article class="service-card fade-in-up">
+        <div class="service-card__img">
+          <img src="images/servico-corte-barba.jpg" alt="Corte + Barba" loading="lazy">
+        </div>
+        <div class="service-card__body">
+          <h3>Corte + Barba</h3>
+          <p>Combo completo de corte e barba.</p>
+          <span class="service-card__price">R$ --,--</span>
+        </div>
+      </article>
+
+      <!-- CARD 4 — TROCAR -->
+      <article class="service-card fade-in-up">
+        <div class="service-card__img">
+          <img src="images/servico-acabamento.jpg" alt="Acabamento" loading="lazy">
+        </div>
+        <div class="service-card__body">
+          <h3>Acabamento</h3>
+          <p>Finalização de contorno, nuca e detalhes.</p>
+          <span class="service-card__price">R$ --,--</span>
+        </div>
+      </article>
+
+      <!-- CARD 5 — TROCAR -->
+      <article class="service-card fade-in-up">
+        <div class="service-card__img">
+          <img src="images/servico-outros.jpg" alt="Outros serviços" loading="lazy">
+        </div>
+        <div class="service-card__body">
+          <h3>Outros serviços</h3>
+          <p>Consulte demais serviços disponíveis na barbearia.</p>
+          <span class="service-card__price">Sob consulta</span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== EXPERIÊNCIA ===================== -->
+<section class="experience">
+  <div class="container">
+    <p class="eyebrow center">O diferencial</p>
+    <h2 class="section-title center">Um espaço para você</h2>
+
+    <div class="experience__grid">
+      <div class="experience__item fade-in-up">
+        <div class="experience__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M2 8.5a15 15 0 0 1 20 0M5.5 12a10 10 0 0 1 13 0M9 15.5a5 5 0 0 1 6 0M12 19h.01" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Wi-Fi</h3>
+        <p>Internet liberada para os clientes.</p>
+      </div>
+
+      <div class="experience__item fade-in-up">
+        <div class="experience__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M3 12s3.5-6 9-6 9 6 9 6-3.5 6-9 6-9-6-9-6z" stroke="currentColor" stroke-width="1.5" fill="none"/><circle cx="12" cy="12" r="2.5" stroke="currentColor" stroke-width="1.5" fill="none"/></svg>
+        </div>
+        <h3>Ambiente agradável</h3>
+        <p>Espaço pensado para seu conforto.</p>
+      </div>
+
+      <div class="experience__item fade-in-up">
+        <div class="experience__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M6 3v6a6 6 0 0 0 12 0V3M6 3h12M9 21h6M12 15v6" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Profissionais capacitados</h3>
+        <p>Equipe qualificada e atenta aos detalhes.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== GALERIA ===================== -->
+<section class="gallery" id="galeria">
+  <div class="container">
+    <p class="eyebrow center">Nosso espaço</p>
+    <h2 class="section-title center">Conheça nosso espaço</h2>
+
+    <!-- TROCAR: substitua os 6 caminhos de imagem abaixo pelas fotos reais -->
+    <div class="gallery__grid">
+      <button class="gallery__item gallery__item--tall fade-in-up" data-img="images/galeria-1.jpg">
+        <img src="images/galeria-1.jpg" alt="Ambiente da barbearia 1" loading="lazy">
+      </button>
+      <button class="gallery__item fade-in-up" data-img="images/galeria-2.jpg">
+        <img src="images/galeria-2.jpg" alt="Ambiente da barbearia 2" loading="lazy">
+      </button>
+      <button class="gallery__item fade-in-up" data-img="images/galeria-3.jpg">
+        <img src="images/galeria-3.jpg" alt="Ambiente da barbearia 3" loading="lazy">
+      </button>
+      <button class="gallery__item fade-in-up" data-img="images/galeria-4.jpg">
+        <img src="images/galeria-4.jpg" alt="Ambiente da barbearia 4" loading="lazy">
+      </button>
+      <button class="gallery__item gallery__item--tall fade-in-up" data-img="images/galeria-5.jpg">
+        <img src="images/galeria-5.jpg" alt="Ambiente da barbearia 5" loading="lazy">
+      </button>
+      <button class="gallery__item fade-in-up" data-img="images/galeria-6.jpg">
+        <img src="images/galeria-6.jpg" alt="Ambiente da barbearia 6" loading="lazy">
+      </button>
+      <button class="gallery__item fade-in-up" data-img="images/galeria-7.jpg">
+        <img src="images/galeria-7.jpg" alt="Ambiente da barbearia 7" loading="lazy">
+      </button>
+      <button class="gallery__item fade-in-up" data-img="images/galeria-8.jpg">
+        <img src="images/galeria-8.jpg" alt="Ambiente da barbearia 8" loading="lazy">
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox__close" id="lightboxClose" aria-label="Fechar">&times;</button>
+  <img src="" alt="" id="lightboxImg">
+</div>
+
+<!-- ===================== AVALIAÇÕES ===================== -->
+<section class="reviews" id="avaliacoes">
+  <div class="container">
+    <p class="eyebrow center">Depoimentos</p>
+    <h2 class="section-title center">Quem conhece, recomenda.</h2>
+
+    <div class="reviews__summary fade-in-up">
+      <span class="reviews__score">4,9</span>
+      <div>
+        <span class="stars" aria-hidden="true">★★★★★</span>
+        <p>55 avaliações no Google</p>
+      </div>
+    </div>
+
+    <div class="reviews__grid">
+      <blockquote class="review-card fade-in-up">
+        <span class="stars" aria-hidden="true">★★★★★</span>
+        <p>"Ótimo lugar, ótimos profissionais."</p>
+        <footer>Avaliação no Google</footer>
+      </blockquote>
+
+      <blockquote class="review-card fade-in-up">
+        <span class="stars" aria-hidden="true">★★★★★</span>
+        <p>"Trabalho profissional e bom preço."</p>
+        <footer>Avaliação no Google</footer>
+      </blockquote>
+
+      <blockquote class="review-card fade-in-up">
+        <span class="stars" aria-hidden="true">★★★★★</span>
+        <p>"Profissionais acima de tudo. Recomendo. Sem susto."</p>
+        <footer>Avaliação no Google</footer>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CTA ===================== -->
+<section class="cta">
+  <div class="container cta__inner fade-in-up">
+    <h2 class="section-title">Seu próximo corte começa aqui.</h2>
+    <p>Agende seu horário e venha conhecer a Ruan Stuart Barbearia.</p>
+    <div class="cta__actions">
+      <!-- TROCAR: link de agendamento / WhatsApp -->
+      <a href="#" class="btn btn--gold" target="_blank" rel="noopener">Agendar horário</a>
+      <a href="#localizacao" class="btn btn--outline">Ver localização</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== LOCALIZAÇÃO ===================== -->
+<section class="location" id="localizacao">
+  <div class="container location__grid">
+    <div class="location__info fade-in-up">
+      <p class="eyebrow">Onde estamos</p>
+      <h2 class="section-title">Estamos em Vilar dos Teles</h2>
+      <address>
+        R. Aldenor Ribeiro de Matos<br>
+        Vilar dos Teles<br>
+        São João de Meriti - RJ<br>
+        25576-282
+      </address>
+      <p class="location__hours"><strong>Funcionamento:</strong><br>
+        Terça a sábado — 10:30 às 21:00<br>
+        Domingo e segunda — fechado
+      </p>
+      <!-- TROCAR: href pelo link real do Google Maps -->
+      <a href="https://www.google.com/maps/search/?api=1&query=R.+Aldenor+Ribeiro+de+Matos+Vilar+dos+Teles+Sao+Joao+de+Meriti" class="btn btn--gold" target="_blank" rel="noopener">Como chegar</a>
+    </div>
+
+    <div class="location__map fade-in-up">
+      <!-- TROCAR: src do iframe pelo link de incorporação do Google Maps -->
+      <iframe
+        src="https://www.google.com/maps?q=6JFQ%2B4V+Vilar+dos+Teles,+S%C3%A3o+Jo%C3%A3o+de+Meriti+-+RJ&output=embed"
+        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade" title="Localização da Ruan Stuart Barbearia"></iframe>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+  <div class="container footer__grid">
+    <div class="footer__brand">
+      <img src="images/logo.png" alt="Ruan Stuart Barbearia" class="footer__logo-img">
+      <p>Estilo, cuidado e experiência.</p>
+    </div>
+
+    <div class="footer__col">
+      <h4>Endereço</h4>
+      <address>
+        R. Aldenor Ribeiro de Matos<br>
+        Vilar dos Teles<br>
+        São João de Meriti - RJ<br>
+        25576-282
+      </address>
+    </div>
+
+    <div class="footer__col">
+      <h4>Navegação</h4>
+      <ul>
+        <li><a href="#topo">Início</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#avaliacoes">Avaliações</a></li>
+        <li><a href="#localizacao">Localização</a></li>
+      </ul>
+    </div>
+
+    <div class="footer__col">
+      <h4>Redes</h4>
+      <ul>
+        <li><a href="https://www.instagram.com/ruanstuartbarbearia/" target="_blank" rel="noopener">Instagram · @ruanstuartbarbearia</a></li>
+        <!-- TROCAR: link real do WhatsApp -->
+        <li><a href="#" target="_blank" rel="noopener">WhatsApp</a></li>
+        <li><a href="https://www.google.com/maps/search/?api=1&query=R.+Aldenor+Ribeiro+de+Matos+Vilar+dos+Teles+Sao+Joao+de+Meriti" target="_blank" rel="noopener">Google Maps</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer__bottom">
+    <p>© 2026 Ruan Stuart Barbearia. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
